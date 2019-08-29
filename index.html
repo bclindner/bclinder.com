@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<title>Brian?</title>
+		<meta charset="utf-8"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100vh;
+				margin: 0;
+				background-color: #875fd7;
+			}
+			.wrapper {
+				position: relative;
+				font-family: Roboto, sans-serif;
+				font-size: 24px;
+				width: 900px;
+				height: 700px;
+				padding: 16px;
+				color: white;
+				background-color: rgba(29,31,33,.75);
+				border-radius: 5px;
+				margin-bottom: 34px; 
+			}
+			h1 {
+				font-weight: 300;
+			}
+			a, a:link, a:hover, a:visited, a:active {
+				color: #e13;
+			}
+			p {
+				line-height: 150%;
+			}
+			small {
+				font-size: 66%;
+			}
+			.oof {
+				height: 256px;
+				width: 256px;
+				min-height: 64px;
+				min-width: 64px;
+				position: absolute;
+				bottom: 0;
+				right: 0;
+			}
+			@media only screen and (max-width: 1024px) {
+				body {
+					display: block;
+					margin: 8px;
+				}
+				.wrapper {
+					width: 100%;
+					height: 100%;
+					left: 0;
+					right: 0;
+					margin: 16px auto;
+				}
+				.oof {
+					position: initial;
+					display: block;
+					margin: 0 auto;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<img src="oof.png" alt="Oof" class="oof" /> <!-- oof -->
+			<h1>Hi!</h1>
+			<p>
+				Looks like you've misspelled my last name - common mistake!<br/>
+				Are you looking for <a href="https://bclindner.com">bclindner.com</a>?
+			</p>
+			<p><small>(Yes, this is enough of a problem that I have to spend money on this website.)</small></p>
+		</div>
+	</body>
+</html>
